@@ -1,0 +1,63 @@
+Arguments: 
+  /Users/birdgang/.nvm/versions/node/v18.2.0/bin/node /usr/local/Cellar/yarn/1.22.19/libexec/bin/yarn.js install
+
+PATH: 
+  /Library/Frameworks/Python.framework/Versions/3.10/bin:/Users/birdgang/.nvm/versions/node/v18.2.0/bin:{PATH}:{PATH}:%PATH:/bin:/usr/local/bin:/usr/bin:/usr/sbin:/Users/birdgang/Desktop/dev/tools/flutter/bin:/usr/local/Cellar/gradle/5.1.1/bin:/usr/local/lib/node_modules/npm/bin:/bin:/Users/birdgang/Library/Android/sdk/platform-tools:/Users/birdgang/Desktop/dev/tools/google-cloud-sdk/bin:FLUTTER/bin/cache/dart-sdk/bin:/usr/local/Cellar/mysql@5.7/5.7.37/bin:/usr/local/Cellar/mongosh/1.1.9/bin:/Users/birdgang/.pub-cache/bin
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  18.2.0
+
+Platform: 
+  darwin x64
+
+Trace: 
+  SyntaxError: /Users/birdgang/Desktop/dev/workspace/workspace_birdgang-gitrepo/nft-art-engine/package.json: Unexpected token } in JSON at position 912
+      at JSON.parse (<anonymous>)
+      at /usr/local/Cellar/yarn/1.22.19/libexec/lib/cli.js:1629:59
+      at Generator.next (<anonymous>)
+      at step (/usr/local/Cellar/yarn/1.22.19/libexec/lib/cli.js:310:30)
+      at /usr/local/Cellar/yarn/1.22.19/libexec/lib/cli.js:321:13
+
+npm manifest: 
+  {
+    "name": "nft-art-engine",
+    "version": "1.0.0",
+    "main": "index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1",
+      "build": "node index.js",
+      "generate": "node index.js",
+      "rarity": "node utils/rarity.js",
+      "preview": "node utils/preview.js",
+      "pixelate": "node utils/pixelate.js",
+      "update_info": "node utils/update_info.js",
+      "preview_gif": "node utils/preview_gif.js",
+      "generate_metadata": "node utils/generate_metadata.js"
+    },
+    "dependencies": {
+      "canvas": "^2.8.0",
+      "gif-encoder-2": "^1.0.5",
+      "sha1": "^1.1.1"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/aw-birdgang/nft-art-engine.git"
+    },
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/aw-birdgang/nft-art-engine/issues"
+    },
+    "homepage": "https://github.com/aw-birdgang/nft-art-engine#readme",
+    "description": "",
+  
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
